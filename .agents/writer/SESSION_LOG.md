@@ -56,6 +56,46 @@ First session establishing the book writing approach.
 ### Additional Notes (added later in session)
 - **New Rule Added:** Always update SESSION_LOG.md after important discussions
 - **New Rule Added:** Update CLAUDE.md if project structure or philosophy changes
+- **New Rule Added:** Commit and push after important discussions (data safety)
+
+---
+
+## Session 1 (continued): v3 Structure Decisions
+
+### Key Decisions
+
+**v2 → v3 Evolution:**
+- v2 was too generic (language-agnostic)
+- v3 is Java-specific with OOP depth, streams, collections
+- Same concepts approach, but with Java examples and patterns
+
+**Book Structure:**
+- cover/ - Front and back cover
+- preface/ - About book, author, acknowledgments
+- chapters/ - 10 chapters with quiz (10 questions each) at end
+- assessments/ - Final 50-question assessment
+- endpages/ - Appendices, resources, index
+
+**Chapter Count:** 10 (was 8 in v2)
+1. AI Paradox (Java disasters)
+2. Java Types
+3. Control Flow (including when to use streams)
+4. OOP Foundations
+5. OOP Pillars (deep dive)
+6. Error Handling (Java exceptions)
+7. Collections (implementations)
+8. Modern Java (streams, lambdas, Optional)
+9. Prompting AI for Java
+10. Reviewing Java Output
+
+**Quiz Format:**
+- 10 questions end of each chapter
+- 50 questions final assessment
+- Collapsible answers using `<details>` tags
+
+**Future Books:**
+- Database book: Will be separate (not copy of Java with different examples)
+- UI book: Will be separate (different concepts needed)
 
 ---
 
