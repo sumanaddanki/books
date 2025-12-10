@@ -4,7 +4,7 @@ This file tracks all sessions and decisions made during book writing.
 
 ---
 
-## Session 1: December 10, 2024
+## Session 1: December 10, 2025
 
 ### Context
 First session establishing the book writing approach.

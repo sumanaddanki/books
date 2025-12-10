@@ -131,7 +131,7 @@ All books follow the same philosophy and structure.
 
 ## Session History
 
-### Session 1 - December 10, 2024
+### Session 1 - December 10, 2025
 **Topic:** Initial book restructuring
 
 **Decisions Made:**

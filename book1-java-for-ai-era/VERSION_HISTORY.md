@@ -1,6 +1,6 @@
 # Version History
 
-## Version 2 (Current - December 2024)
+## Version 2 (Current - December 2025)
 **Philosophy:** Concepts over syntax. AI handles syntax, you handle thinking.
 
 **Structure:** 8 focused chapters
@@ -22,7 +22,7 @@
 
 ---
 
-## Version 1 (Original - December 2024)
+## Version 1 (Original - December 2025)
 **Philosophy:** Traditional Java teaching with AI integration at the end.
 
 **Structure:** 17 chapters + 4 appendices
