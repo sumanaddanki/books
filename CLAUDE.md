@@ -69,3 +69,16 @@ Each chapter follows this pattern:
 - Book content: Markdown (`.md`)
 - No code examples in v2 (concept-focused, AI generates code)
 - v1 retains Java examples for reference
+
+## Writer Agent
+
+The `.agents/writer/` directory contains the "Writer" agent configuration:
+
+- **AGENT.md** - Main agent definition, philosophy, chapter template
+- **RULES.md** - Quick reference for DO/DON'T rules
+- **CONTEXT.md** - Background info, book series plan, success metrics
+- **SESSION_LOG.md** - History of sessions and decisions
+
+**When starting a book writing session:** Read `.agents/writer/AGENT.md` first to understand the rules, then check `SESSION_LOG.md` for recent context.
+
+**When Suman provides new rules:** Update `RULES.md` and add session notes to `SESSION_LOG.md`.
