@@ -16,6 +16,8 @@ Quick reference for rules. Update this when Suman provides new guidance.
 | Use decision flowcharts | Session 1 | Visual decision making |
 | Commit changes to git | Session 1 | Track everything |
 | Use v1/v2 versioning | Session 1 | Compare approaches |
+| Update SESSION_LOG.md after important discussions | Session 1 | Preserve decisions and context |
+| Update CLAUDE.md if project structure/philosophy changes | Session 1 | Keep AI guidance current |
 
 ---
 

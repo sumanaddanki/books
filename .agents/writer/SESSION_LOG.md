@@ -53,6 +53,10 @@ First session establishing the book writing approach.
 - Potentially start Database book outline
 - Add any new rules Suman provides
 
+### Additional Notes (added later in session)
+- **New Rule Added:** Always update SESSION_LOG.md after important discussions
+- **New Rule Added:** Update CLAUDE.md if project structure or philosophy changes
+
 ---
 
 ## Template for Future Sessions
