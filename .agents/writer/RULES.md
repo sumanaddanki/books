@@ -44,6 +44,8 @@ Quick reference for rules. Update this when Suman provides new guidance.
 | Short paragraphs | Session 1 | 3-4 sentences max |
 | Direct tone | Session 1 | No fluff |
 | Real-world analogies | Session 1 | Blueprints, playlists, etc. |
+| Multiple choice quizzes | Session 1 | Easy self-check, wrong options teach misconceptions |
+| 6 practical + 4 theory per quiz | Session 1 | Good balance of applied vs conceptual |
 
 ---
 

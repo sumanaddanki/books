@@ -10,7 +10,28 @@
       "Bash(git push:*)",
       "Bash(git remote:*)",
       "Bash(find:*)",
-      "Bash(git check-ignore:*)"
+      "Bash(git check-ignore:*)",
+      "Bash(pandoc:*)",
+      "Bash(cover/front-cover.md )",
+      "Bash(preface/01-about-this-book.md )",
+      "Bash(preface/02-about-author.md )",
+      "Bash(preface/03-acknowledgments.md )",
+      "Bash(chapters/chapter-01-the-ai-paradox.md )",
+      "Bash(chapters/chapter-02-java-types.md )",
+      "Bash(chapters/chapter-03-control-flow.md )",
+      "Bash(chapters/chapter-04-oop-foundations.md )",
+      "Bash(chapters/chapter-05-oop-pillars.md )",
+      "Bash(chapters/chapter-06-error-handling.md )",
+      "Bash(chapters/chapter-07-collections.md )",
+      "Bash(chapters/chapter-08-modern-java.md )",
+      "Bash(chapters/chapter-09-prompting-ai.md )",
+      "Bash(chapters/chapter-10-reviewing-output.md )",
+      "Bash(assessments/final-assessment.md )",
+      "Bash(endpages/01-quick-reference.md )",
+      "Bash(endpages/02-ai-prompts.md )",
+      "Bash(endpages/03-resources.md )",
+      "Bash(endpages/04-index.md )",
+      "Bash(cover/back-cover.md )"
     ]
   }
 }

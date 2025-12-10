@@ -326,6 +326,155 @@ After reading:
 
 ---
 
+## Chapter 1 Quiz
+
+Test your understanding with these 10 questions.
+
+**Q1: AI generated `double price = 19.99;` for a financial application. What's the problem?**
+- a) Nothing - double is the standard for decimal numbers
+- b) Should use `float` for better performance
+- c) Should use `BigDecimal` to avoid floating-point precision errors
+- d) Should use `int` and store values in cents
+
+<details>
+<summary>Answer</summary>
+
+**c) Should use BigDecimal** - `double` has floating-point precision errors. `0.1 + 0.2` doesn't equal `0.3` in floating-point. For money, always use `BigDecimal`.
+</details>
+
+---
+
+**Q2: AI created a new `Product` class with `id`, `createdAt`, `updatedAt` fields. Your team already has `BaseEntity` with these fields. What should you do?**
+- a) Keep AI's version - it works fine
+- b) Ask AI to make `Product` extend `BaseEntity`
+- c) Manually copy the fields to ensure consistency
+- d) Delete `BaseEntity` and use AI's approach going forward
+
+<details>
+<summary>Answer</summary>
+
+**b) Ask AI to make Product extend BaseEntity** - Extending the existing class avoids code duplication and ensures consistent behavior. When `BaseEntity` is updated, all extending classes benefit.
+</details>
+
+---
+
+**Q3: What happens when this AI-generated code runs with a new user who hasn't set up their profile?**
+```java
+public String getCity(User user) {
+    return user.getProfile().getAddress().getCity();
+}
+```
+- a) Returns an empty string
+- b) Returns null
+- c) Throws NullPointerException
+- d) Returns "Unknown"
+
+<details>
+<summary>Answer</summary>
+
+**c) Throws NullPointerException** - If `getProfile()` returns null, calling `.getAddress()` on null crashes. Each dot in a chain is a potential NPE.
+</details>
+
+---
+
+**Q4: AI wrote file reading code without try-with-resources. What's the risk?**
+- a) Code won't compile
+- b) File will be read slower
+- c) Resource leak - file handles may not be closed
+- d) No risk - Java garbage collector handles it
+
+<details>
+<summary>Answer</summary>
+
+**c) Resource leak** - Without try-with-resources, if an exception occurs, the stream may never close. After many files, you'll get "Too many open files" error.
+</details>
+
+---
+
+**Q5: Why is understanding Java OOP important when using AI?**
+- a) AI can't write object-oriented code
+- b) To catch when AI ignores existing classes and duplicates code
+- c) OOP is required for AI to work properly
+- d) It's not important - AI handles OOP automatically
+
+<details>
+<summary>Answer</summary>
+
+**b) To catch when AI ignores existing classes** - AI doesn't know your codebase. It often creates new classes instead of extending existing ones, leading to duplication and inconsistency.
+</details>
+
+---
+
+**Q6: AI generated a counter using `private int count` accessed by multiple threads. What's wrong?**
+- a) Nothing - int is thread-safe
+- b) Should use `Integer` wrapper class
+- c) Should use `AtomicInteger` for thread-safe operations
+- d) Should use `long` for larger numbers
+
+<details>
+<summary>Answer</summary>
+
+**c) Should use AtomicInteger** - `count++` is not atomic (it's read-modify-write). Multiple threads can overwrite each other's updates. `AtomicInteger` provides thread-safe operations.
+</details>
+
+---
+
+**Q7: AI used `ArrayList` to track unique product IDs with frequent `contains()` checks. With 50,000 IDs, the page takes 8 seconds to load. Why?**
+- a) ArrayList has a size limit
+- b) `contains()` on ArrayList is O(n) - scans entire list
+- c) ArrayList uses too much memory
+- d) ArrayList doesn't support Long values
+
+<details>
+<summary>Answer</summary>
+
+**b) contains() on ArrayList is O(n)** - Each check scans the entire list. With 50,000 items and many checks, this becomes very slow. `HashSet` provides O(1) lookup.
+</details>
+
+---
+
+**Q8: What does "AI is a multiplier" mean in the context of Java development?**
+- a) AI makes your code run faster
+- b) AI amplifies your existing knowledge - weak knowledge leads to fast disasters
+- c) AI multiplies the number of files in your project
+- d) AI requires multiple developers to review its output
+
+<details>
+<summary>Answer</summary>
+
+**b) AI amplifies your existing knowledge** - If you understand Java well, AI makes you faster. If you don't, AI helps you create bugs faster. AI multiplies what you already have.
+</details>
+
+---
+
+**Q9: AI hardcoded `StripeProcessor` instead of using your `PaymentProcessor` interface. What problems does this cause?**
+- a) No problems - Stripe is a good choice
+- b) Can't switch payment providers, can't mock for testing, violates DI pattern
+- c) Stripe is slower than other processors
+- d) The code won't compile
+
+<details>
+<summary>Answer</summary>
+
+**b) Can't switch providers, can't mock, violates DI** - Hardcoding a specific implementation means you can't easily switch to PayPal, can't write unit tests with mocks, and violates dependency injection patterns.
+</details>
+
+---
+
+**Q10: What's the main goal of this book?**
+- a) Teach Java syntax from scratch
+- b) Replace AI coding tools with manual coding
+- c) Build Java judgment to catch AI mistakes before production
+- d) Memorize all Java APIs and methods
+
+<details>
+<summary>Answer</summary>
+
+**c) Build Java judgment to catch AI mistakes** - This book teaches Java understanding, not syntax. The goal is to recognize when AI gets it wrong and fix it before it reaches production.
+</details>
+
+---
+
 ## What's Next
 
 **Chapter 2: Java Types**
