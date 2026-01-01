@@ -22,6 +22,8 @@
 | 8 | Modern Java | Streams, lambdas, Optional, functional interfaces |
 | 9 | Prompting AI for Java | Java-specific prompting techniques |
 | 10 | Reviewing Java Output | Java-specific red flags and code smells |
+| 11 | The QUAD Framework | Team organization around AI - stages, circles, adoption matrix |
+| 12 | Practical QUAD Workflows | From laptop setup to production - real workflows |
 
 ---
 
@@ -118,6 +120,35 @@ Same core message, but disasters are Java-specific:
   - Mutable objects exposed
 - Code smell checklist
 
+### Chapter 11: The QUAD Framework
+- What is QUAD? (Question → Understand → Allocate → Deliver)
+- Q-U-A-D stages vs traditional workflows
+- The AI Adoption Matrix (Skill × Trust)
+  - 9 zones from Restricted AI to Delegated AI
+- Role-stage participation (PRIMARY, SUPPORT, REVIEW, INFORM)
+- The 4 Circles (Management, Development, QA, Infrastructure)
+- How AI fits into each stage
+- Real example: feature flow through QUAD
+
+### Chapter 12: Practical QUAD Workflows
+- Workflow 1: Brand new laptop setup
+  - Java 21, IntelliJ, Copilot, Maven, PostgreSQL, Docker
+  - AI tools configuration
+- Workflow 2: First day on a new team
+  - Understanding codebase with AI
+  - Learning your QUAD role
+- Workflow 3: Your first feature (end-to-end)
+  - Q stage: clarify requirements
+  - U stage: design with AI
+  - A stage: plan work
+  - D stage: implement and review
+- Workflow 4: Code review for AI-generated code
+  - Java-specific review checklist
+  - Constructive feedback
+- Workflow 5: Production incident
+  - When AI code fails
+  - Post-mortem template
+
 ---
 
 ## Target Outcome
@@ -129,3 +160,7 @@ After reading, a Java developer can:
 4. ✅ Catch exception handling problems
 5. ✅ Direct AI to extend existing classes
 6. ✅ Review AI code for Java-specific issues
+7. ✅ Understand their role in a QUAD-organized team
+8. ✅ Know their AI Adoption Matrix level and what it means
+9. ✅ Set up a complete Java AI development environment
+10. ✅ Execute features end-to-end through Q-U-A-D stages
